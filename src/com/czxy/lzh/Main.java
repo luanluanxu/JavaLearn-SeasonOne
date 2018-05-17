@@ -27,6 +27,20 @@ public class Main {
 //        ArrayExamples.arrayList();
 //        2.数组填充
 //        ArrayExamples.arrayFill();
-//        3.数组
+//        3.数组中找重复值
+//        ArrayExamples.findRepeatItem();
+//        4.数组中删除指定值并重建数组
+//        ArrayExamples.unsetArrayItem();
+//        5.计算数组的交集
+//        ArrayExamples.calcArrayRetain();
+//        6.计算数组的差集
+//        ArrayExamples.calcArrayDiff();
+//        7.查找数组中指定元素
+//        ArrayExamples.findArrayItem();
+//        8.判断数组是否相等
+//        ArrayExamples.ifArrayEqual();
+//        9.求数组的并集
+        ArrayExamples.arrayUnion();
+
     }
 }
