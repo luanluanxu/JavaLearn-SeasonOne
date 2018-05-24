@@ -1,6 +1,8 @@
 package com.czxy.lzh;
 
 import java.lang.reflect.Array;
+import java.util.Scanner;
+import java.util.Vector;
 
 public class Main {
 
@@ -15,7 +17,7 @@ public class Main {
 //        Statement.ifStatement();
 //        Statement.ifNestStatment();
 //        Statement.switchStatement();
-        //String 数据类型
+        //String 数据类型BufferedReader
 //        StringType.charArrayString();
 //        StringType.stringFormat();
         //StringBuffer 类
@@ -40,7 +42,48 @@ public class Main {
 //        8.判断数组是否相等
 //        ArrayExamples.ifArrayEqual();
 //        9.求数组的并集
-        ArrayExamples.arrayUnion();
+//        ArrayExamples.arrayUnion();
+//        Date时间类
+//        1.生成当前时间
+//        dateType.dateDemo();
+//        2.解析字符串为时间
+//        dateType.stringToTime();
+//        3.Calendar类(非线程安全)
+//        dateType.calendarType();
+//        4.GregorianCalendar类
+//        dateType.GregorianCalendarDemo();
+//        5.时间戳转换成时间
+//        dateType.timestampsToDate();
+//        方法重载
+//        MethodsOverloading.getSomething();
+//        MethodsOverloading.getSomething("哈哈");
+//        枚举类型
+//        String car = enumType.getCar();
+//        if(enumType.getCar() instanceof String){
+//            System.out.println(car);
+//        }else {
+//            System.out.println("no!");
+//        }
+//        StreamExamples.readConsole();
+//        读写文件 System.io
+//        ScannerType.scannerDemo();
+//        1.字符流 读取
+//        try {
+//            StreamExamples.bufferReader();
+//        }catch (Exception e){
+//            System.out.println(e.getMessage());
+//        }
+//        2.字符流 写入
+//        try {
+//            StreamExamples.bufferWriter();
+//        }catch (Exception e){
+//            System.out.println(e.getMessage());
+//        }
+
+//        Bitset类    获取位置  特点：数组自动扩充
+//        BitSetType.bitsset();
+//        Vector向量类
+        VectorType.vectorDemo();
 
     }
 }

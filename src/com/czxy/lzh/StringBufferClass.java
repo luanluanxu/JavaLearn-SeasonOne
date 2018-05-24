@@ -1,5 +1,7 @@
 package com.czxy.lzh;
 
+import java.io.Writer;
+
 public class StringBufferClass {
     public static void stringBuffer(){
         StringBuffer mybuffer = new StringBuffer("乱序:");
