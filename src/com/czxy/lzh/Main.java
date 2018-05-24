@@ -2,6 +2,7 @@ package com.czxy.lzh;
 
 import java.lang.reflect.Array;
 import java.util.Scanner;
+import java.util.Stack;
 import java.util.Vector;
 
 public class Main {
@@ -83,7 +84,20 @@ public class Main {
 //        Bitset类    获取位置  特点：数组自动扩充
 //        BitSetType.bitsset();
 //        Vector向量类
-        VectorType.vectorDemo();
-
+//        VectorType.vectorDemo();
+//        Stack栈类
+//        StackDemo.main();
+//        StackDemo.showpush("乱乱序");
+//        StackDemo.showpop();
+//        StackDemo.showStack();
+//        Map集合类
+//        MapType.pushM1("乱序");
+//        MapType.getM1("name");
+//        Json实例
+//        try{
+//            JsonType.jsonDemo();
+//        }catch (Exception e){
+//            System.out.println(e.getMessage());
+//        }
     }
 }
