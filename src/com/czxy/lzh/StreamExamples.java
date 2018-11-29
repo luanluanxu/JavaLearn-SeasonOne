@@ -32,7 +32,7 @@ public class StreamExamples {
     }
 
     public static void bufferReader() throws IOException{
-        BufferedReader in = new BufferedReader(new FileReader("C:/hello.txt"));
+        BufferedReader in = new BufferedReader(new FileReader("/home/luanxu/Desktop/hello.txt"));
         String str;
         while((str = in.readLine())!=null){
             System.out.println(str);
@@ -41,7 +41,7 @@ public class StreamExamples {
     }
 
     public static void bufferWriter() throws IOException{
-        BufferedWriter out = new BufferedWriter(new FileWriter("C:/hello.txt"));
+        BufferedWriter out = new BufferedWriter(new FileWriter("/home/luanxu/Desktop/hello.txt"));
         out.write("java io测试");
         out.close();
     }

@@ -12,6 +12,6 @@ public class JsonType {
         JsonParser parser = new JsonParser();
         JsonObject Config = (JsonObject) parser.parse(new FileReader("Config.json"));
         JsonArray languages = Config.get("languages").getAsJsonArray();
-        System.out.println(languages.get(0));
+        System.out.println(languages.get(0).getAsJsonObject().get("name"));
     }
 }
