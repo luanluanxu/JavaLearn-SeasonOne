@@ -82,7 +82,7 @@ public class Main {
 //        }
 
 //        Bitset类    获取位置  特点：数组自动扩充
-        BitSetType.bitsset();
+//        BitSetType.bitsset();
 //        Vector向量类
 //        VectorType.vectorDemo();
 //        Stack栈类
@@ -99,5 +99,9 @@ public class Main {
 //        }catch (Exception e){
 //            System.out.println(e.getMessage());
 //        }
+//        java序列化
+//        SerializeDemo.writeObject();
+//         java反序列化
+//        DeserializeDemo.readObject();
     }
 }
