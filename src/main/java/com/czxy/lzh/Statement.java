@@ -2,7 +2,7 @@ package com.czxy.lzh;
 
 enum names {
     小明,小红,小黄,不存在;
-    public static names getName(String name){
+    public static names getName(String name) {
         try {
             return names.valueOf(name);
         }catch (IllegalArgumentException e){
